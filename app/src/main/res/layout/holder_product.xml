@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<layout>-->
+<!--        <data>-->
+<!--            <variable name="productdata" type="org.sussanacode.implementingapicallwithmvp.model.Product"/>-->
+<!--        </data>-->
+<!--</layout>-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="@dimen/common_padding">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/common_padding">
+
+
+                <TextView
+                    android:id="@+id/tvproductid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvproductid"-->
+<!--                    android:text="@{productdata.product_id}"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/small_margin"-->
+<!--                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+                <TextView
+                    android:id="@+id/tvproductname"
+                    android:text="Product Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <TextView
+                    android:id="@+id/tvproductdesc"
+                    android:text="Product Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+
+                <TextView
+
+                    android:id="@+id/tvproductcategory"
+                    android:text="Product Category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+                <TextView
+                    android:id="@+id/tvproductprice"
+                    android:text="Product Price"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/small_margin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

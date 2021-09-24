@@ -1,0 +1,51 @@
+<!--<layout>-->
+<!--        <data>-->
+<!--            <variable name="productdata" type="org.sussanacode.implementingapicallwithmvp.model.Product"/>-->
+<!--        </data>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvproductname"-->
+<!--        android:text="@{productdata.name}"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginVertical="@dimen/small_margin"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+
+<!--    <TextView-->
+
+<!--        android:id="@+id/tvproductcategory"-->
+<!--        android:text="@{productdata.category}"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/small_margin"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvproductdesc"-->
+<!--        android:text="@{productdata.description}"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/small_margin"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvproductprice"-->
+<!--        android:text="@{productdata.price}"-->
+<!--        android:layout_marginTop="@dimen/small_margin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginVertical="@dimen/small_margin"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+</LinearLayout>
+
+<!--</layout>-->
